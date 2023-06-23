@@ -4,11 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Oskemen IT hub</title>
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
   </head>
+  
   <body>
-    <div class="scene"></div>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="./logo.png" alt="Logo" />
+        </div>
+        <h1 class="title">Oskemen IT hub</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="scene">
+      <select id="objectSelector">
+        <option value="gulim+++">Object 1</option>
+        <option value="d">Object 2</option>
+        <option value="gulim2">Object 3</option>
+      </select>
+    </div>
     <script src="./three.min.js"></script>
     <script src="./GLTFLoader.js"></script>
     <script src="./app.js"></script>
